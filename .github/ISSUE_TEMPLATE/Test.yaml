@@ -36,6 +36,15 @@ body:
         - 1.0.3 (Edge)
     validations:
       required: true
+  - type: checkboxes
+    id: operating-systems
+    attributes:
+      label: Which operating systems have you used?
+      description: You may select more than one.
+      options:
+        - label: macOS
+        - label: Windows
+        - label: Linux
   - type: dropdown
     id: browsers
     attributes:
